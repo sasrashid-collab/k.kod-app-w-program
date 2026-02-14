@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پلاتفۆرمی ناردنی بیرۆکە</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>گەنجی کورد، بیرۆکەکەت بنێرە! 🚀</h1>
+        <p>بیرۆکەکەت بدە بە <b>کورد کۆد</b>، ئێمە کۆدی دەکەین و لە <b>مادئەپ</b> دەیکەینە ئەپێکی ئامادە.</p>
+
+        <form id="ideaForm">
+            <label for="name">ناوەکەت:</label>
+            <input type="text" id="name" name="name" placeholder="ناوی سیانیت بنووسە..." required>
+
+            <label for="email">ئیمەیڵ:</label>
+            <input type="email" id="email" name="email" placeholder="نموونە: example@mail.com" required>
+
+            <label for="idea">بیرۆکەی پڕۆژەکەت:</label>
+            <textarea id="idea" name="idea" rows="6" placeholder="بە کورتی و کوردی بیرۆکەکەت ڕوون بکەرەوە..." required></textarea>
+
+            <button type="submit" class="btn">ناردن بۆ کورد کۆد</button>
+        </form>
+        
+        <div id="message" style="margin-top: 20px; display: none; color: green; font-weight: bold;">
+            بیرۆکەکەت بە سەرکەوتوویی نێردرا! چاوەڕێی پەیوەندی بن.
+        </div>
+    </div>
+
+</body>
+</html>
